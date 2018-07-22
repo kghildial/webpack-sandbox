@@ -7,7 +7,7 @@ module.exports = {
         app: './src/index.js',
         print: './src/print.js'
     },
-    devtool: 'inline-source-map',
+    devtool: 'inline-source-map', //Not good for production
     devServer: {
         contentBase: './dist'
     },
